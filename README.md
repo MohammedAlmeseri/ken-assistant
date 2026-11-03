@@ -253,6 +253,10 @@ Every Python file is split into commented sections, each opened by a `# ------` 
 - **Sent to OpenAI** (when it's the brain): the text Ken reads to answer you. With the local backend, nothing leaves the machine.
 - **Never published:** this repository contains no personal data. The evaluation numbers come from the author's own chats; the raw results were never published.
 
+## Contact
+
+Questions, feedback or opportunities: **[rastodevv@gmail.com](mailto:rastodevv@gmail.com)**
+
 ## License
 
 MIT © 2026 Mohammed Almeseri. WhatsApp, Gmail and Google Calendar are trademarks of their owners. The WhatsApp server is an unofficial client: use it at your own risk.

@@ -4,7 +4,7 @@ version = "1.0.0"
 description = "Ken: a private desktop assistant for WhatsApp, Gmail and Google Calendar over MCP, with RAG style memory, voice and a safety gate in code."
 readme = "README.md"
 license = "MIT"
-authors = [{ name = "Mohammed Almeseri" }]
+authors = [{ name = "Mohammed Almeseri", email = "rastodevv@gmail.com" }]
 requires-python = ">=3.11"
 
 [tool.pytest.ini_options]
