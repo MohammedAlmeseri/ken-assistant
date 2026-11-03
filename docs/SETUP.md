@@ -1,6 +1,6 @@
 # Setup
 
-This guide takes you from a fresh clone to Ken reading your WhatsApp, Gmail and Calendar. It takes about 15 minutes.
+This is the short version. For click-by-click steps with a check at the end of each, see **[instructions/](../instructions/)**.
 
 **You can skip all of this** to look around first: the tests and [examples/](../examples/) run offline, and `python -m assistant.ui --mock` shows the app with made-up chats. The mock still uses the OpenAI key for answers, or Ollama with `ASSISTANT_BACKEND=local`.
 

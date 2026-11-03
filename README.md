@@ -211,7 +211,7 @@ The [examples/](examples/) folder runs the real code paths on made-up data:
 
 1. Copy `.env.example` to `.env` and add your OpenAI key. Alternatively, set `ASSISTANT_BACKEND=local` and use Ollama.
 2. Copy `mcp_servers.example.json` to `mcp_servers.json`.
-3. Set up the WhatsApp, Gmail and Calendar servers: see **[docs/SETUP.md](docs/SETUP.md)** (about 15 minutes).
+3. Set up the WhatsApp, Gmail and Calendar servers. **[instructions/](instructions/)** has a click-by-click guide for each, with a check at the end of every step. [docs/SETUP.md](docs/SETUP.md) is the short version.
 4. Run `python -m assistant.ui --mock` to try the app with fake data, or `python -m assistant.ui` for the real thing.
 
 ---
@@ -234,6 +234,7 @@ ken-assistant/
 ├── tests/                     151 offline tests (no network, no key)
 ├── evals/                     evaluation harness + RESULTS.md (numbers only)
 ├── examples/                  runnable offline demos + settings.example.json
+├── instructions/              step-by-step setup: Python, OpenAI, WhatsApp, Google Cloud, Gmail, Calendar, MCP
 ├── docs/                      ARCHITECTURE.md · PROJECT_BRIEF.md · SETUP.md · images/
 ├── ENGINEERING.md             how it was built, problems, fixes, fallbacks
 ├── .env.example               keys (copy to .env, never commit it)
