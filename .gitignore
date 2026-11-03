@@ -1,0 +1,36 @@
+# ---------------------------------------------------------------------------
+# Secrets: never commit these
+# ---------------------------------------------------------------------------
+.env
+gcp-oauth.keys.json
+credentials.json
+token*.json
+*.session
+
+# ---------------------------------------------------------------------------
+# Your local configuration (copy the *.example files)
+# ---------------------------------------------------------------------------
+settings.json
+mcp_servers.json
+
+# ---------------------------------------------------------------------------
+# Personal data: messages, memory, logs, voice model, eval results
+# ---------------------------------------------------------------------------
+data/
+
+# ---------------------------------------------------------------------------
+# Third-party servers you install next to Ken (see docs/SETUP.md)
+#   whatsapp-mcp/store/ holds your WhatsApp session: it must never be published.
+# ---------------------------------------------------------------------------
+whatsapp-mcp/
+whatsapp-store/
+tools/
+
+# ---------------------------------------------------------------------------
+# Python
+# ---------------------------------------------------------------------------
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/

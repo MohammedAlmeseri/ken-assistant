@@ -1,0 +1,15 @@
+# Core
+openai>=1.50
+ollama>=0.4
+mcp>=2.3,<3   # 2.x Client API (FastMCP/ClientSession-era code won't work)
+python-dotenv>=1.0
+numpy>=1.26   # the vector store (memory.py)
+
+# Voice (optional): pip install -r requirements-voice.txt
+
+# Dev
+pytest>=8
+
+# Google Calendar (assistant/calendar_mcp.py)
+google-api-python-client>=2.150
+google-auth-oauthlib>=1.2

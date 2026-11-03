@@ -1,0 +1,28 @@
+{
+  "backend": "openai",
+  "openai_model": "gpt-6-luna",
+  "reasoning_effort": "none",
+  "stt_backend": "auto",
+  "tone": "egyptian_friendly",
+  "persona": "butler",
+
+  "speak_after_voice": true,
+  "speak_replies": false,
+  "tts_engine": "edge",
+  "edge_voice_en": "en-GB-RyanNeural",
+  "edge_voice_ar": "ar-EG-ShakirNeural",
+  "wake_word": false,
+  "follow_up_seconds": 8,
+
+  "morning_brief": true,
+  "morning_brief_time": "08:00",
+  "birthday_time": "10:00",
+
+  "nudges": true,
+  "nudge_max_per_day": 4,
+  "nudge_quiet": "23:00-09:00",
+
+  "whatsapp_sends_per_minute": 3,
+  "email_sends_per_minute": 5,
+  "hotkey": "ctrl+shift+space"
+}

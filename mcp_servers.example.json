@@ -1,0 +1,20 @@
+{
+  "mcpServers": {
+    "whatsapp": {
+      "url": "http://127.0.0.1:8765/mcp"
+    },
+    "gmail": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@gongrzhe/server-gmail-autoauth-mcp@1.1.11"
+      ]
+    },
+    "calendar": {
+      "command": "./.venv/Scripts/python.exe",
+      "args": [
+        "./assistant/calendar_mcp.py"
+      ]
+    }
+  }
+}

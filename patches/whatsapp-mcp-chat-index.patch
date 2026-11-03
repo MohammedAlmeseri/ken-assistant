@@ -1,0 +1,15 @@
+diff --git a/internal/store/store.go b/internal/store/store.go
+index 4721fa1..71f2f76 100644
+--- a/internal/store/store.go
++++ b/internal/store/store.go
+@@ -328,6 +328,10 @@ CREATE TABLE IF NOT EXISTS messages (
+ 	FOREIGN KEY (chat_jid) REFERENCES chats(jid)
+ );
+ 
++-- Per-chat latest-message lookups (list_chats/get_chat include_last_message) would
++-- otherwise scan every message once per chat: ~20s on a synced account.
++CREATE INDEX IF NOT EXISTS idx_messages_chat_ts ON messages(chat_jid, timestamp);
++
+ CREATE TABLE IF NOT EXISTS poll_votes (
+ 	poll_message_id TEXT NOT NULL,
+ 	poll_chat_jid TEXT NOT NULL,
