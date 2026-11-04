@@ -10,9 +10,9 @@
 ![Platform](https://img.shields.io/badge/desktop-Windows%2010%2F11-2f7fe0?style=flat-square)
 ![License](https://img.shields.io/badge/license-MIT-6b7c8a?style=flat-square)
 
-<a href="docs/media/ken-demo.mp4"><img src="docs/images/ken-demo-cover.jpg" width="760" alt="Ken launch film: click to watch the 60-second demo"></a>
+<a href="https://youtu.be/RzMZbTKtJCk"><img src="docs/images/ken-demo-cover.jpg" width="760" alt="Ken launch film: click to watch the 60-second demo on YouTube"></a>
 
-**▶ [Watch the 60-second demo](docs/media/ken-demo.mp4)** (with sound)
+**▶ [Watch the 60-second demo on YouTube](https://youtu.be/RzMZbTKtJCk)**
 
 <img src="docs/images/ui_chat_draft_event.png" width="360" alt="Ken's chat panel: a summary, a WhatsApp draft card and a calendar event card">
 <img src="docs/images/ui_person_shortcut.png" width="360" alt="A person summary card and a shortcut card">
